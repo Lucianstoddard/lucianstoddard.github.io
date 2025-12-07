@@ -1,7 +1,11 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@500&display=swap');
+
+/* BODY TEXT = Roboto Mono */
 body {
   background: rgb(245, 245, 245);
   color: #121212;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto Mono", monospace;
   margin: 0;
   padding: 0;
 }
@@ -17,11 +21,18 @@ nav a {
   margin: 0 15px;
   text-decoration: none;
   font-size: 18px;
+  font-family: "Roboto Mono", monospace;
 }
 
 main {
   text-align: center;
   padding: 100px 20px;
+}
+
+/* HEADERS = Roboto Medium */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500; /* medium */
 }
 
 h1 {
